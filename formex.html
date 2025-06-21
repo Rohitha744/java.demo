@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body style="text-align:center;">
+    <h1>FORM EXAMPLE</h1>
+    <form enctype="multipart/form-data" action="result.html" autocomplete="on"method="post">
+        First Name : <input type ="text" name="fname"placeholder="Don't Use Symbols" size="20" required/><br><br>
+        Last Name : <input type ="text" name="lname"placeholder="Don't Use Symbols" size="20" required/><br><br>
+        Email:<input type="text" name="email" placeholder="DEnter yout Email" size="20" disabled/><br><br>
+        Password:<input type ="password" name="pwd"placeholder="Enter the Password" size="20" required/><br><br>
+        Age:<input type ="int" name="age"placeholder="Enterthe Age" size="20" required/><br><br>
+        DOB:<input type="date" name="age" placeholder="Enter DOB" size="20" required/><br><br>
+        Resume Upload:<input type="file" name="cv" placeholder="Upload your resume" size="20" /><br><br>
+        Gender:<input type="radio" name="gender">Male</input><br><br>
+               <input type="radio" name="gender">Female</input><br><br>
+               <input type="radio" name="gender">Others</input><br><br>
+        Hobbies:<input type="checkbox" name="Cricket">Cricket</input><br><br>
+                <input type="checkbox" name="Shuttle">Shuttle</input><br><br>
+                <input type="checkbox" name="Volley Ball">Volley Ball</input><br><br>
+        Address:<textarea placeholder="Enter your Address" minlength="10"></textarea><br><br>
+        Choose a Number:<select name="" size="3">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>

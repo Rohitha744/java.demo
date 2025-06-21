@@ -1,0 +1,14 @@
+h2{
+    color: red;
+}
+.mydemo{
+    color: blue;
+}
+#demo{
+    color: purple;
+}
+.days{
+    color: purple;
+    font-family: 'segoe UI',Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10;
+}

@@ -1,0 +1,62 @@
+  *{
+    text-decoration: none;
+  }
+  .b {
+    background-image: url("scholar.jpg");               
+    background-repeat: no-repeat;  
+    /*background-size:cover;*/
+    background-position:500px;         
+    background-attachment: fixed;                 
+    margin-top: 15px;             
+}
+
+  .login{
+    background-color: rgb(123, 182, 241);
+    max-width: 350px;
+    align-items: center;
+    margin: 80px auto;
+    padding: 10px;
+  }
+  .btn {
+    background-color:lightskyblue;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+
+  .btn:hover {
+    background-color: rgb(0, 179, 255);
+  }
+ .head {
+    text-align: center;
+    background-color: rgb(0, 109, 128);
+    margin: 0;
+    padding: 0;
+ }
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 255, 255, 0.573);
+    max-width: 150px;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+  }
+.dropdown-menu{
+    overflow: hidden;
+    display: none;
+}
+.dropdown-menu li a{
+    padding: 8px;
+    font-size: 15px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+
+}
+
+
+  

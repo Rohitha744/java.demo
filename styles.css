@@ -1,0 +1,25 @@
+body{
+   /* background-image: url(nat.jpg);
+    background-position:center ;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size:auto;*/
+    background-color: aliceblue;
+}
+.b1{
+    border-style: dashed;
+    border-color: blue;
+}
+.b2{
+    border-style: dotted;
+}
+.b3{
+    border-style: groove;
+}
+.b4{
+    border-style: double;
+    border-color: mediumspringgreen;
+    border-width: 2em;
+    /*border-radius: 50px;*/
+    border-bottom-left-radius: 50px;
+}
